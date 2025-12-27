@@ -4,7 +4,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 void main()async{
   WidgetsFlutterBinding.ensureInitialized();
   SharedPreferences prefs = await SharedPreferences.getInstance();
-   await prefs.setString('name', 'John');
+   await prefs.setString('name', 'rifana');
   runApp(const MyApp());
 }
 class MyApp extends StatefulWidget {
