@@ -34,7 +34,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.yellowAccent,
+        backgroundColor: const Color.fromRGBO(195, 195, 146, 1),
         appBar: AppBar(
           title:  Text('SharedPreferences Demo'),
         ),
