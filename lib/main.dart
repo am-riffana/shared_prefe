@@ -14,7 +14,7 @@ class MyApp extends StatefulWidget {
   State<MyApp> createState() => _MyAppState();
 }
 
-class _MyAppState extends State<MyApp> {
+class _MyAppState extends State<MyApp> { 
   String name = '';
 
   @override
@@ -36,7 +36,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         backgroundColor: const Color.fromRGBO(195, 195, 146, 1),
         appBar: AppBar(
-          title:  Text('SharedPreferences Demo'),
+          title:  Text('SharedPreferences'),
         ),
         body: Center(
           child: Text(
